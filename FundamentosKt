@@ -3,3 +3,48 @@ fun main() {
     print("aaaaaaaa")
 }
 //-----------------------
+fun main() {
+    println("aoba")//exibir mensagem no console
+    //comentario de uma linha 
+    /*
+     * ele
+     * é
+     * um
+     * comentario
+     * de
+     * mais
+     * de 
+     * uma
+     * linha
+     */
+     //Variáveis - eles armazenam valores
+     //variáveis mutáveis - seu valor pode ser alterado ----------- var
+     //variáveis não mutáveis - seu valor não pode ser alterado ------- val
+     //
+     // Tipos de Variáveis
+     // Boolean - verdadeiro ou falso EX: true e false
+     // String - Caracteres no geral ...entre ASPAS DUPLAS 
+     // - Sem limite de caracteres EX: "João Geromel cadeira´s"
+     //  
+     // Char - apenas 1 digito de caractere... dentro de ASPAS SIMPLES Ex: 'J'
+     // Int - Números inteiros EX: 1000
+     // Double - números decimais com limite de 7 digitos após a vírgula -
+     // arredonda o número EX: 22.5
+     // 
+     // Float - Números decimais, com um limite de até 14 digitos após a vírgula -
+     // arredonda o número EX: 22.5f
+     // 
+     // Long - números longos com muitos dígitos, ou decimal EX: 800000000000000000000000000000
+     // 
+     // Estrutura de uma variável:
+     // 
+     // var nome = valor
+     //       ou
+     // var nome: tipo 
+     // 
+     // 
+     var professoresDeGeografia = "Glória"
+     var professorr: string 
+
+}
+//----------------------
