@@ -47,4 +47,50 @@ fun main() {
      var professorr: string 
 
 }
-//----------------------
+//---------------------- 
+fun main() {
+  //concatenação 
+  /*
+  var tartaruga = "Michael Jackson"
+    println("O nome da tartaruga do Mbappé é $tartaruga")
+    println("O nome da tartaruga do Mbappé é " + tartaruga)
+    
+    var leclerc = 2
+    var alonso = 1 
+    
+    println("A posição do Leclerc = a posição do Alonso são ${(leclerc + alonso)}")
+     println("A posição do Leclerc = a posição do Alonso são " + (leclerc + alonso))
+  
+    
+    var nome = "Pedro"
+    var idade = 14 
+    var cidade = "São Paulo"
+    
+    println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
+    */ 
+    //Exercício - Faça um diálogo de no mínimo 15 linhas, nele deve conter, 
+    //os nomes de forma contatenada usando variaveis 
+    
+    var nome1 = "Pedro"
+    var nome2 = "Fagner"
+    var lugar = "Itaquerão"
+    var time = "Corinthians"
+    var quantidade = 0
+    println ("Ontem após o jogo do $time, $nome1 bravo com a derrota de seu time foi tirar satisfação com o lateral de seu time:")
+    println ("Qual é $nome2 sacanagem já, 5 pênaltis perdidos de forma seguida, tu ganha 300 mil, aprende a bater pênalti ")
+    println ("$nome2 retrucou dizendo:")
+    println ("Po $nome1 você nunca vai saber qual é a pressão de bater um pênalti no $lugar lotado")
+    println ("$nome1 revoltado respondeu:")
+    println ("PRESSÃO? o jogo é contra o todo poderoso ituano $nome2")
+    println ("$nome2 respondeu:")
+    println ("Quantos paulistas vc tem?")
+    println ("$quantidade") 
+    println ("E brasileiros?")
+    println ("$quantidade")
+    println ("libertadores?") 
+    println ("Po $nome2 esse eu tenho $quantidade mas você tbm")
+    println ("$nome2 disse triste:")
+    println ("i vdd mané")
+    println ("Os dois foram emboram do $lugar e foram para suas casas.")    
+} 
+//------------------------------------------
