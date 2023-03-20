@@ -94,3 +94,37 @@ fun main() {
     println ("Os dois foram emboram do $lugar e foram para suas casas.")    
 } 
 //------------------------------------------
+fun main() {
+  
+     //Operadores Matemáticos 
+     // + -> adição
+     // - -> subtração
+     // / -> divisão
+     // * -> multiplicação
+     // % -> módulo - resto da divisão
+     // 
+    /* var halls = 7 
+     var freegells = 6
+    
+    println (halls + freegells)
+    println (halls - freegells)
+    println (halls % freegells)
+    println (halls * freegells)*/
+    // EXERCÍCIO - Faça uma calculadora que contenha cada um dos operadores matématicos 
+    var halls = 100
+     var freegells = 15
+ 
+
+  println("******************finje que tem uma coisa bonita aq************************")
+    println ("$halls + $freegells é: ${(freegells + halls )}")
+    println ("$halls - $freegells é: ${(freegells - halls )}" )
+    println ("$halls / $freegells é: ${(freegells / halls )}")
+    println ("$halls x $freegells é: ${(freegells * halls )}" )
+    println ("A sobra da divisão entre  $halls e $freegells é: ${(freegells % halls )}" )
+    println ("********************Fim :)***************************")
+    
+    
+    
+    
+}
+//----------------------------------------------------
