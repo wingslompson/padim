@@ -203,7 +203,51 @@ fun main() {
  
     
 }
+//--------------------------------------------------------------
+fun main() {
+    /*var v1 = 20
+    var v2 = 10
     
+     if (v1>v2){
+     println("O numero maior é $v1")
+    }else if (v1<v2){
+         println("O numero maior é $v2")
+     }else{ 
+         println("os numeros sao iguais")}
+
+     
+    
+    var tpa =  10
+    
+    if (tpa>0){
+    println("$tpa é maior que 0")
+    }else if (tpa<0){
+        println("$tpa é menor que 0")
+    }else{
+        println("Os numeros sao iguais")
+    }*/ 
+   
+  // Operadores lógico
+  // && -> e ou and -> se todas as condições forem verdadeiras, o resultado será verdadeiro
+  // || -> ou or -> se pelo menos uma condição for verdadeira, o resultado será verdadeiro
+  // 
+  // Tabela verde
+  // 
+  // &&
+  // VV -> V
+  // VF -> F
+  // FV -> F
+  // FF -> F
+  // 
+  // ||
+  // VV -> 
+  // VE ->
+ 
+    
+  }
+
+    
+   //--------------------------------------------------------------------
     
     
     
