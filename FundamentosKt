@@ -248,6 +248,38 @@ fun main() {
 
     
    //--------------------------------------------------------------------
+   
+   fun main() {
+  /* //show so Picles
+   //pro cidadão menor de 18 anos entrar, ele precisa ter pelo menos 12 anos e acompamhado de um responsavel maior
+    
+   var idade = 18
+    var comResp = false
+    var comI = false
+     if(idade <=18){
+         if((idade >= 12 && comI == true) || comResp == true){
+             println("Aproveite o show")
+     }else{
+             println("tu nao pode entrar")
+         }
+       }else{ 
+             
+         println("bom show")
+     }*/
+    var coracao = 0
+
+     if(coracao <= 0){
+         if(coracao >= 0){
+             println("vc foi de base")
+         }
+       }else{ 
+             
+         println("tu ta vivasso")
+         }
+     
+    
+     } 
+//--------------------------------------------------------------------     
     
     
     
