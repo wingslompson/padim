@@ -280,7 +280,82 @@ fun main() {
     
      } 
 //--------------------------------------------------------------------     
+    fun main() {
+  /* //show so Picles
+   //pro cidadão menor de 18 anos entrar, ele precisa ter pelo menos 12 anos e acompamhado de um responsavel maior
     
+   var idade = 18
+    var comResp = false
+    var comI = false
+     if(idade <=18){
+         if((idade >= 12 && comI == true) || comResp == true){
+             println("Aproveite o show")
+     }else{
+             println("tu nao pode entrar")
+         }
+       }else{ 
+             
+         println("bom show")
+     }
+    var coracao = 0
+    var vidas = 0
+    
+    if (coracao == 0)
+    {
+        println("Foi de vasco!")
+        vidas--
+    } else {
+        println("Continue...")
+    }
+    if (vidas <= 0)
+    {
+        println("Acabaram suas vidas!")
+    } else {
+        println("Continue...")
+    }*/
+    
+    //when - quando 
+    //
+    //comparação de quando um valor for igual a um determindado valor,
+    // uma determinada ação será executado
+    // 
+    // estrutra do when
+    // 
+    // when(auxiliar)
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // else -> {ação}
+    // }
+    // será usado geralmente quando durante o programa o valor da variavel
+    // não for estatico, ou seja, ele estiver mudando 
+    
+    var mes = 5 
+    
+    when (mes){
+        1 -> {println("Lisboa")} 
+        2 -> {println("New york")}
+        3 -> {println("Rio Janeiro")}    
+        4 -> {println("São Paulo")}
+        5 -> {println("Keylandia")}
+        6 -> {println("Milwaukee")}
+        7 -> {println("Barcelona")} 
+        8 -> {println("Springfield")}
+        9 -> {println("Los Pollos Hermanos")}
+        10 -> {println("Elmore")}
+        11 -> {println("Toronto")}
+        12 -> {println("Seoul")}
+        else ->{println("Acordou")}
+    
+    
+    
+    }
+}
+
+
+//------------------------------------------------------------------------------
     
     
     
