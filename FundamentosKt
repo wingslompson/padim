@@ -377,7 +377,78 @@ fun main() {
 }
 //------------------------------------------------------------
     
+    fun main() {
+// Laços de repetição 
+// 
+// repeat - repita
+// vai repetir uma determinada ação uma determinada quantidade de vezes
+// ESTRUTURA DO REPEAT
+// 
+// repeat(númerosVezes){
+// ação
+// }
+// 
+// while - enquanto
+// enquanto uma condição for verdadeira, uma determinada ação será executada
+// ESTUTURA DO WHILE
+// 
+// while(condição){
+// ação
+// } 
+// 
+// do..while - faça..enquanto  
+// for - para 
+// 
+//  
+/* repeat(8){
+     println("Isso é um teste")
+ }*/ 
     
+  //Exercício -> faça um progama com auxilio de uma variavel contador,
+  //no qual nela será acresentado 1 a cada repetição,
+  //até que dê a quantidade de vezes decidida
+/*  
+var cont = 10 
+var resultado = 0
+    repeat(cont){
+  resultado++
+         println("Isso é um teste $resultado")
+         }
+    
+  */
+    /*
+    var cont = 10
+    var cond = 0 
+    
+    while (cont > cond){
+       println( cond++)
+    }*/ 
+    
+    //Exercício -> Simulador de bateria de celular
+    //faça um while que mostre a bateria 100% diminuindo 
+    //quando ela chegar a 15, deve mostrar a mensagem pedindo para
+    //conectar o carregador, e quando ela chegar a 0, deve mostrar a mensagem 
+    //aparelho desligando 
+     
+    var bateria = 100 
+    
+    while (bateria > 14){
+      println(bateria--)
+      
+
+      
+      while (bateria > -1)
+      println(bateria--)
+      println("Acabou a bateria :(")
+        
+    }
+    
+   
+}
+
+
+
+//----------------------------------------------------------------------------------------------
     
     
     
