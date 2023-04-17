@@ -377,7 +377,7 @@ fun main() {
 }
 //------------------------------------------------------------
     
-    fun main() {
+ fun main() {
 // Laços de repetição 
 // 
 // repeat - repita
@@ -389,18 +389,45 @@ fun main() {
 // }
 // 
 // while - enquanto
-// enquanto uma condição for verdadeira, uma determinada ação será executada
+// ENQUANTO uma condição for verdadeira, uma determinada ação será executada
 // ESTUTURA DO WHILE
 // 
 // while(condição){
 // ação
 // } 
 // 
-// do..while - faça..enquanto  
-// for - para 
+// do..while - faça..enquanto 
 // 
+// Uma determinada ação será executada, ENQUANTO uma determinada condição fr verdadeira
+//   
+// ESTRUTURA DO DO..WHILE    
+// 
+// do{
+// ação        
+// }while(condição)            
+/*var contador = 0
+    do{
+        println(contador++)
+    }while(contador > 10)    
+    
+    
+    
+    */
+    
+// for - para...
 //  
-/* repeat(8){
+// PARA cada item em um intervalo oi colection, uma determinada ação será executada
+// ESTRUTURA DO FOR:
+// 
+//  for(vAuxiliar in interválo ou celection) 
+//  ação 
+//  }
+/* 
+for(pneu in 1..4){
+    println("1 pneu")
+}
+*/
+    /* repeat(8){
      println("Isso é um teste")
  }*/ 
     
@@ -422,7 +449,7 @@ var resultado = 0
     
     while (cont > cond){
        println( cond++)
-    }*/ 
+    } 
     
     //Exercício -> Simulador de bateria de celular
     //faça um while que mostre a bateria 100% diminuindo 
@@ -432,19 +459,55 @@ var resultado = 0
      
     var bateria = 100 
     
-    while (bateria > 14){
-      println(bateria--)
+    while (bateria >= 0){
+      println("$bateria%")
+      when(bateria){
+     15 -> println("coloque para carregar")
       
 
-      
-      while (bateria > -1)
-      println(bateria--)
-      println("Acabou a bateria :(")
+     0 ->  println("Acabou a bateria :(")
         
     }
+      bateria--
+    }*/
     
-   
+    //Exercício -> Faça uma tabuada até o décimo multiplo de um número escolhido, 
+    //ultilizando o laço for
+    //em excessão as tabuadas do 0, 1, 2
+    
+    var a, b, c, d, e, f, g, h, i, j = 0
+    var quatro = 4 
+    var cont = 0 
+    while(cont>10){
+     a -> (quatro*1)
+     b ->   (quatro*2)
+        (quatro*3)
+        (quatro*4)
+        (quatro*5)
+        (quatro*6)
+        (quatro*7)
+        (quatro*8)
+        (quatro*9)
+        (quatro*10)
+       
+    }
+    
+    for(tabuada in 1..10){
+    println("1 pneu")
 }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
