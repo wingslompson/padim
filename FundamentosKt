@@ -499,6 +499,137 @@ var tabuada = 0
  
  
 }
+//Collections
+//
+// intervalos, listas, arrays, vetores etc
+//
+// tipos de listas
+// 
+
+var list1 = listOf("tartaruga", 0, 0.1,true)
+println(list1) //exibir a lista
+println(list1.size) //retorna o tamanho da lista
+println(list1.lastIndex)//retornar o ultimo index
+println(list1[2]) //exibir o valor de um determinado index
+println(list1.contains("tartaruga"))//compara se existe um determinado valor dentro da lista
+println(list1.indexOf(0))//indica o index de um determinado valor
+println(list1.lastIndexOf(0.1))//indica o ultimo de um determinado valor
+println(list1.first())//o valor do  primeiro index
+println(list1.last())//o valor do ultimo index
+println(list1.isEmpty())//campara se a lista esta vazia
+
+// <tags>
+var list2 = listOf<String>("Lebron James", "Stephen Curry", "Michael Jordan", "Pernalonga", "Klay Thompson")
+//lista acima especifica o tipo de dados que vai ser guardado
+//
+//obs: ListOf() -> imutavel
+//proxima aula ... mutableListOf()
+
+fun main() {
+// Obs. listOf -> imutável
+// Próxima aula... mutablelistOf()
+// mutableListOf() --> armazena qualquer tipo de valores conjuntos 
+// mutableListOf<Tipo de valor> -> armazena valores especificas de seu tipo 
+/* 
+var comida = mutableListOf<String>("Strogonoff", "Patê de frango", "Lasanha", "Feijoada") 
+
+
+println(comida)
+
+//Propriedades 
+ 
+comida.add("Macarrão") //Adiciona um valor a lista 
+println(comida)
+
+comida.add(3, "Cuscuz")//Adiciona um valor a um index especifico na lista
+println(comida)
+
+comida.remove("Patê de frango")//Remove um valor especifico na lista
+println(comida)
+
+comida.removeAt(0)//Remove um valor de um index especifico
+println(comida)
+
+comida.set(2, "Pastel de carne seca") //Substitou um valor pelo index
+println(comida)
+
+comida.clear()
+println(comida)
+*/
+
+//Exercício -> A cada mês do ano, em uma turma de 5 alunos, entra um aluno novo 
+//Crie uma lista inicial de alunos da turma 
+//A cada mês adicione um novo aluno (em linhas diferentes)
+//Em 2 meses do ano, 2 alunos foram substítuidos por outros dois package
+//
+//Exiba a lista a lista de alunos respectivas de cada mes do ano
+
+var alunos = mutableListOf<String>("Pedro", "Ireno", "Gabriel", "Pelé", "Raj")
+
+println("Janeiro")
+alunos.add("Duda")
+println(alunos)
+
+println("Fevereiro")
+alunos.add("Rony")
+println(alunos)
+
+println("Março")
+alunos.add("Hebert")
+println(alunos)
+
+println("Abril")
+alunos.add("Pablo")
+alunos.set(1, "Helena")
+println(alunos)
+
+println("Maio")
+alunos.add("Luisa")
+alunos.removeAt(4)
+println(alunos)
+
+println("Junho")
+alunos.add("Ana")
+println(alunos)
+
+println("Julho")
+alunos.add("Miguel")
+println(alunos)
+
+println("Agosto")
+alunos.add("Guilherme")
+alunos.set(5, "Felipe")
+println(alunos) 
+
+println("Setembro")
+alunos.add("Diego")
+alunos.removeAt(7)
+println(alunos)
+
+println("Outubro")
+alunos.add("Willian")
+println(alunos)
+
+println("Novembro")
+alunos.add("Nicolas")
+println(alunos)
+
+println("Dezembro")
+alunos.add("Camila")
+println(alunos)
+
+
+
+
+
+
+
+
+
+}
+
+
+
 
 
 
