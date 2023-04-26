@@ -645,6 +645,29 @@ println(alunos)
 
 //----------------------------------------------------------------------------------------------
     
+    fun main() {
+    
+    //POO
+    //
+    // Programação orientada à objetos
+    // 
+    // Objetivo: Simular atividades e situações do mundo real
+    // 
+    // Objeto - Elementos que podem interagir com um sistema Ex : Pé
+    // 
+    // Classe - Denominação de um determinado objeto Ex : Membro do corpo
+    // 
+    // Atributos - Características, propriedades, parâmetros Ex : Tamanho 
+    // 
+    // Métodos - Atividades e ações que o objeto pode realizar Ex : Chutar
+    //  
+    // Herança - Atributos de um objeto que são HERDADOS de uma classe 
+    
+  
+    
+    }
+    
+    //-------------------------------------------------------------------
     
     
     
