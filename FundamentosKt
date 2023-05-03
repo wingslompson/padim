@@ -671,7 +671,45 @@ println(alunos)
     
     
     
+    fun main() {
+  var pessoa1 = Pessoa() //Instanciamos um obj 
+  
+  
+  pessoa1.nome = "Pedro Henrique" // Alterar um valor de um atributo de um obj
+    pessoa1.idade = 15
+    pessoa1.altura = 1.76 
+    pessoa1.peso = 63.50 
+    pessoa1.profissao = "Dev"
+    pessoa1.nacionalidade = "Brasileiro"
     
+    println(pessoa1.nome)
+    println(pessoa1.idade)
+    println(pessoa1.altura)
+    println(pessoa1.peso)
+    println(pessoa1.profissao)
+    println(pessoa1.nacionalidade)
+        
+    }
+
+class Pessoa {
+    //Atributos que todas as pessoas podem ter
+    var nome = ""
+    var idade = 0
+    var altura = 0.0
+    var peso = 0.0 
+    var profissao = ""
+    var nacionalidade = "" 
+    
+}
+
+//EXERCÍCIO -> faça uma apresentação sua utilizando a classe Pessoa() já criada e utilizando 
+
+
+
+
+
+
+//------------------------------------------------------------------------------------------------------------------------------
     
     
     
