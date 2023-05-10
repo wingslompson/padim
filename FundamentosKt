@@ -732,7 +732,70 @@ class Animal (var especies: String,
               var idade: Int,
               var dieta: String,
               var habitat: String)
+    //------------------------------------------------------------------------------------------------------------------------------
+    fun main() {
+ 
+
     
+  // Ecerxicios --> 
+     // Faça o cátalogo de animais que estão morando no zoologicos de SP 
+     // com no minímo 20 animais, sem repetição de raça
+     
+
+     var animal1 = Animal("Cachorro", "Pinscher", 7, "Chinelo", "Pequeno")
+     var animal2 = Animal("Gato", "Munchkin", 1, "Ração", "Pequeno")
+     var animal3 = Animal("Tatu", "Pichiciego-maior", 4, "Vegetais", "Médio")
+     var animal4 = Animal("Macaco", "Babuino", 5, "Banana", "Médio")
+     var animal5 = Animal("Cavalo", "Puro-sangue inglês", 1, "Verduras", "Médio")
+     var animal6 = Animal("Porco", "Yorkishire", 7, "Verduras", "Médio")
+     var animal7 = Animal("Vaca", "Holandesa", 5, "Verduras", "Grande")
+     var animal8 = Animal("Ovelha", "Merino", 1, "Verduras", "Pequeno")
+     var animal9 = Animal("Coelho", "Rex", 6, "Verduras", "Pequeno")
+     var animal10 = Animal("Hamster", "Sírio", 9, "Ração", "Pequeno")
+     var animal11 = Animal("Furão", "Marshall", 3, "Verduras", "Pequeno")
+     var animal12 = Animal("Papagaio", "Arara", 80, "Ração", "Pequeno")
+     var animal13 = Animal("Pato", "Pequim", 4, "Verduras, peixes e insetos", "Médio")
+     var animal14 = Animal("Peru", "Bronze", 2, "Milho e minhocas", "Médio")
+     var animal15 = Animal("Largato", "Dragão barbudo", 11, "Insetos", "Médio")
+     var animal16 = Animal("Aranha", "Tarântula", 1, "Insetos", "Pequeno")
+     var animal17 = Animal("Cobra", "Jiboia", 3, "Verduras", "Médio")
+     var animal18 = Animal("Tartaruga", "Jabuti", 220, "Verduras", "Médio")
+     var animal19 = Animal("Rato", "Braco de laboratório ", 1, "Insetos e ração", "Pequeno") 
+    /*                     45 */
+println("Espécie: "+animal1.especie +"| Raça: "+ animal1.raca +"| idade: "+ animal1.idade+"| Dieta "+ animal1.dieta + "| Porte: "+ animal1.porte)
+println("Espécie: "+animal2.especie +"| Raça: "+ animal2.raca +"| idade: "+ animal2.idade+"| Dieta "+ animal2.dieta +"| Porte: "+ animal2.porte)
+println("Espécie: "+animal3.especie +"| Raça: "+ animal3.raca +"| idade: "+ animal3.idade+"| Dieta "+ animal3.dieta +"| Porte: "+ animal3.porte)
+println("Espécie: "+animal4.especie +"| Raça: "+ animal4.raca +"| idade: "+ animal4.idade+"| Dieta "+ animal4.dieta +"| Porte: "+ animal4.porte)
+println("Espécie: "+animal5.especie +"| Raça: "+ animal5.raca +"| idade: "+ animal5.idade+"| Dieta "+ animal5.dieta +"| Porte: "+ animal5.porte)
+println("Espécie: "+animal6.especie +"| Raça: "+ animal6.raca +"| idade: "+ animal6.idade+"| Dieta "+ animal6.dieta +"| Porte: "+ animal6.porte)
+println("Espécie: "+animal7.especie +"| Raça: "+ animal7.raca +"| idade: "+ animal7.idade+"| Dieta "+ animal7.dieta +"| Porte: "+ animal7.porte)
+println("Espécie: "+animal8.especie +"| Raça: "+ animal8.raca +"| idade: "+ animal8.idade+"| Dieta "+ animal8.dieta +"| Porte: "+ animal8.porte)
+println("Espécie: "+animal9.especie +"| Raça: "+ animal9.raca +"| idade: "+ animal9.idade+"| Dieta "+ animal9.dieta +"| Porte: "+ animal9.porte)
+println("Espécie: "+animal10.especie +"| Raça: "+ animal10.raca +"| idade: "+ animal10.idade+"| Dieta "+ animal10.dieta +"| Porte: "+ animal10.porte)
+println("Espécie: "+animal11.especie +"| Raça: "+ animal11.raca +"| idade: "+ animal11.idade+"| Dieta "+ animal11.dieta +"| Porte: "+ animal11.porte)
+println("Espécie: "+animal12.especie +"| Raça: "+ animal12.raca +"| idade: "+ animal12.idade+"| Dieta "+ animal12.dieta +"| Porte: "+ animal12.porte)
+println("Espécie: "+animal13.especie +"| Raça: "+ animal13.raca +"| idade: "+ animal13.idade+"| Dieta "+ animal13.dieta +"| Porte: "+ animal13.porte)
+println("Espécie: "+animal14.especie +"| Raça: "+ animal14.raca +"| idade: "+ animal14.idade+"| Dieta "+ animal14.dieta +"| Porte: "+ animal14.porte)
+println("Espécie: "+animal15.especie +"| Raça: "+ animal15.raca +"| idade: "+ animal15.idade+"| Dieta "+ animal15.dieta +"| Porte: "+ animal15.porte)
+println("Espécie: "+animal16.especie +"| Raça: "+ animal16.raca +"| idade: "+ animal16.idade+"| Dieta "+ animal16.dieta +"| Porte: "+ animal16.porte)
+println("Espécie: "+animal17.especie +"| Raça: "+ animal17.raca +"| idade: "+ animal17.idade+"| Dieta "+ animal17.dieta +"| Porte: "+ animal17.porte)
+println("Espécie: "+animal18.especie +"| Raça: "+ animal18.raca +"| idade: "+ animal18.idade+"| Dieta "+ animal18.dieta +"| Porte: "+ animal18.porte)
+println("Espécie: "+animal19.especie +"| Raça: "+ animal19.raca +"| idade: "+ animal19.idade+"| Dieta "+ animal19.dieta +"| Porte: "+ animal19.porte)
+
+    
+     
+     
+    }
+
+
+    
+
+class Animal (var especie: String,
+              var raca: String,
+              var idade: Int,
+              var dieta: String,
+              var porte: String)
+//----------------------------------------------------------------------------------------------------------------------------------------------
 
 
     
